@@ -7,6 +7,14 @@ function getVariantClassname(variant: string): string {
     return 'btn-secondary'
   }
 
+  if(variant === 'dark') {
+    return 'btn-dark'
+  }
+
+  if(variant === 'light'){
+    return 'btn-light'
+  }
+
   return ''
 }
 

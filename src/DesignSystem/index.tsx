@@ -46,20 +46,21 @@ export default function DesignSystem() {
           Primary
         </Button>
 
-        <br />
-
         <Button type="button" variant="secondary">
           Secondary
         </Button>
-
-        <br />
 
         <Button type="button" variant="primary" href="/new">
           Link
         </Button>
 
-        <br />
-        <br />
+        <Button type="button" variant="dark">
+          Dark
+        </Button>
+
+        <Button type="button" variant="light">
+          Light 
+        </Button>
 
         {/* Inputs */}
 

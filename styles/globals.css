@@ -30,15 +30,23 @@
 
 @layer components {
   .btn {
-    @apply flex justify-center py-2 px-10 rounded-md shadow-sm text-light bg-primary hover:bg-primaryHover;
+    @apply flex justify-center text-h5 py-2 px-10 rounded-md shadow-sm;
   }
 
   .btn-primary {
-    @apply text-light text-h5 bg-primary hover:bg-primaryHover;
+    @apply text-light bg-primary hover:bg-primaryHover;
   }
 
   .btn-secondary {
-    @apply text-light text-h5 bg-secondary hover:bg-secondaryHover;
+    @apply text-light bg-secondary hover:bg-secondaryHover;
+  }
+
+  .btn-dark {
+    @apply text-light bg-dark;
+  }
+
+  .btn-light {
+    @apply text-dark bg-light border;
   }
 
   .section {
