@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-import { Alert, Button, Input, NavLink, Select } from 'ui-library/'
+import { Button, Input, NavLink, Select } from 'ui-library/'
 
 export default function DesignSystem() {
   return (
@@ -106,13 +106,6 @@ export default function DesignSystem() {
           />
         </div>
 
-        <br />
-
-        <Alert text="This is an alert" type="error" />
-
-        <br />
-
-        <Alert text="This is an alert" type="success" />
       </div>
     </>
   )
