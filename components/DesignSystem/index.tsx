@@ -71,7 +71,8 @@ export default function DesignSystem() {
             label="Full Name"
             name="display"
             type="text"
-            value="Placeholder"
+            placeholder="Placeholder"
+            value=""
             errorMessage="Input is required."
             onChange={() => {}}
           />

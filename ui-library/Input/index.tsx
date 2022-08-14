@@ -7,16 +7,17 @@ const Input = ({
   name,
   type,
   value,
+  placeholder,
   errorMessage,
   isTextArea = false,
   onChange,
 }: InputInterface) => {
-  const classes = `appearance-none w-full block px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-dark focus:border-dark sm:text-sm ${
-    errorMessage && 'border-danger'
+  const classes = `appearance-none w-full block px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-dark focus:border-dark focus:text-dark sm:text-sm ${
+    errorMessage && 'border-danger text-danger'
   }`
   return (
     <>
-      <label htmlFor={name}>{label}</label>
+      <label htmlFor={name} className="font-semibold">{label}</label>
       <div className="pt-2">
         {isTextArea ? (
           <textarea
@@ -34,6 +35,7 @@ const Input = ({
             name={name}
             type={type}
             value={value}
+            placeholder={placeholder}
             onChange={onChange}
             className={classes}
           />

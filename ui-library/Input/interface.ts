@@ -3,6 +3,7 @@ export default interface InputInterface {
   label: string
   name: string
   type: string
+  placeholder: string
   value: string
   errorMessage: string
   isTextArea?: boolean
