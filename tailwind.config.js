@@ -6,14 +6,15 @@ module.exports = {
   ],
   theme: {
     colors: {
-      primary: '#078080',
-      secondary: '#F45D48',
+      primary: '#7F5AF0',
+      secondary: '#2CB67D',
       danger: '#EF4565',
-      success: '#3FF100',
-      dark: '#232323',
-      light: '#F8F5F2',
-      primaryHover: '#09A9A9',
-      secondaryHover: '#F58B57',
+      success: '#2CB67D',
+      gray: '#94A1B2',
+      dark: '#16161A',
+      light: '#FFFFFE',
+      primaryHover: 'rgba(127, 90, 240, 0.7)',
+      secondaryHover: 'rgba(42, 182, 175, 0.7)',
     },
     fontSize: {
       small: '0.75rem',
