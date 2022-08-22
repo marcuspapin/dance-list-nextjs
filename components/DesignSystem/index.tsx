@@ -102,6 +102,7 @@ export default function DesignSystem() {
             label="Full Name"
             name="display"
             type="text"
+            placeholder='Placeholder'
             value="Placeholder"
             isTextArea={true}
             errorMessage="Input is required."

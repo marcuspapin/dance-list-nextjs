@@ -9,9 +9,10 @@ function Button({
   variant,
   href,
   submitting,
+  styles,
 }: ButtonInterface) {
   const variantClassname = getVariantClassname(variant)
-  const classes = `${variantClassname} btn text-h6 my-3 md:text-h5 whitespace-nowrap`
+  const classes = `${variantClassname} ${styles} btn text-h6 my-3 md:text-h5 whitespace-nowrap`
 
   if (href) {
     return (

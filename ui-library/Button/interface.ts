@@ -4,4 +4,5 @@ export interface ButtonInterface {
   variant: 'primary' | 'secondary' | 'dark' | 'light'
   href?: string
   submitting?: boolean
+  styles?: string
 }
