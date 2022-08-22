@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 import CityCard from 'components/CityCard'
-import { Button, Input, NavLink, Select } from 'ui-library/'
+import { Button, Input, NavLink, Select, Pill } from 'ui-library/'
 
 export default function DesignSystem() {
   return (
@@ -109,6 +109,10 @@ export default function DesignSystem() {
             onChange={() => {}}
           />
         </div>
+
+        <Pill variant='primary'>Primary</Pill>
+        <Pill variant='secondary'>Secondary</Pill>
+        <Pill variant='danger'>Danger</Pill>
 
       </div>
 
