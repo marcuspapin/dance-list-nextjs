@@ -1,6 +1,7 @@
 import CityCard from 'components/CityCard'
 import DanceBackground from 'components/DanceBackground'
 import Navigation from 'components/Navigation'
+import Footer from 'components/Footer'
 
 function HomePage() {
   const arr = [1, 2, 3, 4, 5, 6]
@@ -22,6 +23,8 @@ function HomePage() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   )
 }
