@@ -1,3 +1,11 @@
-import DesignSystem from 'components/DesignSystem'
+import Navigation from 'components/Navigation'
 
-export default DesignSystem
+function HomePage() {
+  return (
+    <>
+      <Navigation />
+    </>
+  )
+}
+
+export default HomePage
