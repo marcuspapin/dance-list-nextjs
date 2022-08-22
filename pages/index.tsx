@@ -11,13 +11,15 @@ function HomePage() {
 
       <section className="bg-dark">
         <div className="base-container section text-center">
-          <h2 className="text-h3 text-light">
+          <h2 className="text-h3 text-light pt-6">
             Find Places to dance in your city.
           </h2>
 
-          {arr.map((_, i) => (
-            <CityCard key={i} />
-          ))}
+          <div className="pt-8 grid content-center grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+            {arr.map((_, i) => (
+              <CityCard key={i} />
+            ))}
+          </div>
         </div>
       </section>
     </>
