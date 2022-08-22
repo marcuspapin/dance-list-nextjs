@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     './pages/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
     './ui-library/**/*.{ts,tsx}',
   ],
   theme: {
