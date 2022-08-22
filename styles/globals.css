@@ -54,6 +54,6 @@
   }
 
   .base-container {
-    @apply m-auto w-2/3 sm:w-1/2 xl:w-2/5;
+    @apply m-auto max-w-[1200px];
   }
 }

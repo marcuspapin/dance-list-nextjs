@@ -2,16 +2,13 @@
 
 import CityCard from 'components/CityCard'
 import PlaceCard from 'components/PlaceCard'
+import Navigation from 'components/Navigation'
 import { Button, Input, NavLink, Select, Pill } from 'ui-library/'
 
 export default function DesignSystem() {
   return (
     <>
-      <div className="bg-dark py-8">
-        <NavLink text="Home" href="/" isActive={true} />
-        <NavLink text="About" href="/about" isActive={false} />
-        <NavLink text="Articles" href="/articles" isActive={false} />
-      </div>
+      <Navigation />
       <div className="p-5">
         {/* Typography */}
         <h1 className="text-h1">Heading One</h1>
@@ -61,7 +58,7 @@ export default function DesignSystem() {
         </Button>
 
         <Button type="button" variant="light">
-          Light 
+          Light
         </Button>
 
         {/* Inputs */}
@@ -103,7 +100,7 @@ export default function DesignSystem() {
             label="Full Name"
             name="display"
             type="text"
-            placeholder='Placeholder'
+            placeholder="Placeholder"
             value="Placeholder"
             isTextArea={true}
             errorMessage="Input is required."
@@ -111,10 +108,9 @@ export default function DesignSystem() {
           />
         </div>
 
-        <Pill variant='primary'>Primary</Pill>
-        <Pill variant='secondary'>Secondary</Pill>
-        <Pill variant='danger'>Danger</Pill>
-
+        <Pill variant="primary">Primary</Pill>
+        <Pill variant="secondary">Secondary</Pill>
+        <Pill variant="danger">Danger</Pill>
       </div>
 
       <h1 className="text-h1">Components</h1>
