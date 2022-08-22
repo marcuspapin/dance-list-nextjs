@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import CityCard from 'components/CityCard'
+import PlaceCard from 'components/PlaceCard'
 import { Button, Input, NavLink, Select, Pill } from 'ui-library/'
 
 export default function DesignSystem() {
@@ -119,6 +120,8 @@ export default function DesignSystem() {
       <h1 className="text-h1">Components</h1>
 
       <CityCard />
+
+      <PlaceCard />
     </>
   )
 }

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Button } from 'ui-library'
 
 function CityCard() {
-  return <div className="flex flex-col w-[350px] bg-gray rounded-xl">
+  return <div className="flex flex-col w-[350px] bg-gray rounded-xl m-4">
     <div className="rounded-xl">
       <Image src="/toronto.jpg" width={350} height={207}/>
     </div>

@@ -4,7 +4,7 @@ import { getVariantClassname } from './helpers'
 import { ButtonInterface } from './interface'
 
 function Button({
-  type,
+  type = 'button',
   children,
   variant,
   href,
@@ -12,7 +12,7 @@ function Button({
   styles,
 }: ButtonInterface) {
   const variantClassname = getVariantClassname(variant)
-  const classes = `${variantClassname} ${styles} btn text-h6 my-3 md:text-h5 whitespace-nowrap`
+  const classes = `${variantClassname} ${styles} btn max-h-[50px] text-h6 my-3 md:text-h5 whitespace-nowrap`
 
   if (href) {
     return (
