@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <>
       <Navigation />
-      <DanceBackground />
+      <DanceBackground title="Select your city below." />
 
       <section className="bg-dark">
         <div className="base-container section text-center">
