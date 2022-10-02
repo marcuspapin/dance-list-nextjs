@@ -17,7 +17,12 @@ const CityCard = () => (
 
     <div className="text-center py-3">
       <p className="text-h5 text-light">10 Places to dance</p>
-      <Button type="button" variant="dark" styles="mx-auto">
+      <Button
+        type="button"
+        variant="dark"
+        styles="mx-auto"
+        href="/city/toronto"
+      >
         View all
       </Button>
     </div>
