@@ -1,17 +1,27 @@
 import Image from 'next/image'
 import { Button } from 'ui-library'
 
-function CityCard() {
-  return <div className="flex flex-col w-[350px] bg-gray rounded-xl m-4">
-    <div className="rounded-xl">
-      <Image src="/toronto.jpg" width={350} height={207}/>
+const CityCard = () => (
+  <div className="flex flex-col w-[350px] bg-gray rounded-xl m-4 mt-24">
+    <div>
+      <p className="relative -mb-32 z-10 text-h4 text-light">
+        Toronto, Ontario
+      </p>
+      <Image
+        src="/toronto.png"
+        width={350}
+        height={207}
+        className="rounded-t-xl"
+      />
     </div>
 
     <div className="text-center py-3">
-        <p className="text-h5 text-light">10 Places to dance</p>
-        <Button type="button" variant="dark" styles="mx-auto">View all</Button>
+      <p className="text-h5 text-light">10 Places to dance</p>
+      <Button type="button" variant="dark" styles="mx-auto">
+        View all
+      </Button>
     </div>
-    </div>
-} 
+  </div>
+)
 
 export default CityCard
