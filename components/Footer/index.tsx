@@ -1,7 +1,9 @@
+import Image from 'next/image'
+
 function Footer() {
   return (
-    <footer className="bg-gray py-4 text-center">
-      <p className="text-light text-h3">Footer</p>
+    <footer className="bg-gray py-10 text-center">
+      <Image src="/logo.png" width={225} height={25} />
     </footer>
   )
 }
