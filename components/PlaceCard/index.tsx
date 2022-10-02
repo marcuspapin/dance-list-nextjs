@@ -12,12 +12,12 @@ function PlaceCard() {
           <div>
             <Link href="/">
               <a className="pr-1">
-                <Image src="/icons/instagram.svg" height={24} width={24} />
+                <Image src="/icons/instagram-dark.svg" height={24} width={24} />
               </a>
             </Link>
             <Link href="/">
               <a className="pl-1">
-                <Image src="/icons/facebook.svg" height={24} width={24} />
+                <Image src="/icons/facebook-dark.svg" height={24} width={24} />
               </a>
             </Link>
           </div>
