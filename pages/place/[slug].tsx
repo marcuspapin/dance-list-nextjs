@@ -10,6 +10,7 @@ import Footer from 'components/Footer'
 import Navigation from 'components/Navigation'
 import PlaceCard from 'components/PlaceCard'
 import Map from 'components/Map'
+import Marker from 'components/Map/Marker'
 
 const CityPage = () => {
   const router = useRouter()
@@ -22,8 +23,8 @@ const CityPage = () => {
       <DanceBackground title={place} />
 
       <div className="bg-dark flex flex-col items-center py-6">
-        <div>
-          <div className="text-light">
+        <div className="flex">
+          <div className="text-light pr-10">
             <p>5 King street, Toronto On</p>
             <p>www.salsacondesa.com</p>
             <div>
@@ -50,12 +51,16 @@ const CityPage = () => {
             </div>
           </div>
 
-          <Wrapper apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API}>
-            <Map center={{ lat: 43, lng: -79 }} zoom={6} />
-          </Wrapper>
+          <div className="pl-10">
+            <Wrapper apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API}>
+              <Map center={{ lat: 43, lng: -79 }} zoom={6}>
+                <Marker position={{ lat: 43, lng: -79 }} />
+              </Map>
+            </Wrapper>
+          </div>
         </div>
 
-        <div>
+        <div className="mt-12">
           <p className="text-h2 text-light text-center">
             Other Dance studios in Toronto
           </p>
