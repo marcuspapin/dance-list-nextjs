@@ -1,12 +1,14 @@
 import Image from 'next/image'
 import { Button } from 'ui-library'
 
-const CityCard = () => (
+const CityCard = ({
+  city: { location, count },
+}: {
+  city: { location: string; count: number }
+}) => (
   <div className="flex flex-col w-[350px] bg-gray rounded-xl m-4 mt-24">
     <div>
-      <p className="relative -mb-32 z-10 text-h4 text-light">
-        Toronto, Ontario
-      </p>
+      <p className="relative -mb-32 z-10 text-h4 text-light">{location}</p>
       <Image
         src="/toronto.png"
         width={350}
@@ -16,7 +18,9 @@ const CityCard = () => (
     </div>
 
     <div className="text-center py-3">
-      <p className="text-h5 text-light">10 Places to dance</p>
+      <p className="text-h5 text-light">
+        {count} Place{count > 1 && 's'} to dance
+      </p>
       <Button
         type="button"
         variant="dark"

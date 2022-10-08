@@ -1,10 +1,12 @@
+import { getLocation } from 'helpers/helpers'
+
 import CityCard from 'components/CityCard'
 import DanceBackground from 'components/DanceBackground'
 import Navigation from 'components/Navigation'
 import Footer from 'components/Footer'
 
 function HomePage() {
-  const arr = [1, 2, 3, 4, 5, 6]
+  const locations = getLocation()
   return (
     <>
       <Navigation />
@@ -17,8 +19,8 @@ function HomePage() {
           </h2>
 
           <div className="pt-8 grid content-center grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-            {arr.map((_, i) => (
-              <CityCard key={i} />
+            {locations.map((location, i) => (
+              <CityCard key={i} city={location} />
             ))}
           </div>
         </div>
