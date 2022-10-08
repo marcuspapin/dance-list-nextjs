@@ -1,17 +1,19 @@
 import Image from 'next/image'
-import { Button, NavLink } from 'ui-library'
+import { useRouter } from 'next/router'
+import { NavLink } from 'ui-library'
 
 function Navigation() {
+  const router = useRouter()
+  const isCities = router.asPath === '/'
+
   return (
-    <nav className="bg-dark py-4">
+    <nav className="bg-dark py-8">
       <div className="base-container flex justify-between">
         <div className="flex items-center">
           <Image src="/logo.png" width={225} height={25} />
         </div>
         <div className="flex items-center">
-          <NavLink text="Cities" href="/" isActive={true} />
-          <NavLink text="Contact" href="/contact" isActive={false} />
-          <Button variant="secondary">Add a Place</Button>
+          <NavLink text="Cities" href="/" isActive={isCities} />
         </div>
       </div>
     </nav>
