@@ -30,7 +30,7 @@ function PlaceCard() {
         </div>
 
         <div className="flex items-center lg:justify-center">
-          <Button variant="dark">Learn More</Button>
+          <Button variant="dark" href="/place/salsa-condesa">Learn More</Button>
         </div>
       </div>
     </div>
