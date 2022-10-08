@@ -2,9 +2,9 @@ import Image from 'next/image'
 import { Button } from 'ui-library'
 
 const CityCard = ({
-  city: { location, count },
+  city: { location, count, key },
 }: {
-  city: { location: string; count: number }
+  city: { location: string; count: number; key: string }
 }) => (
   <div className="flex flex-col w-[350px] bg-gray rounded-xl m-4 mt-24">
     <div>
@@ -25,7 +25,7 @@ const CityCard = ({
         type="button"
         variant="dark"
         styles="mx-auto"
-        href="/city/toronto"
+        href={`/city/${key}`}
       >
         View all
       </Button>

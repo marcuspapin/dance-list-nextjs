@@ -16,14 +16,25 @@ function getLocation() {
 
   const formattedLocations = nonDuplicateLocations.map((location) => {
     const count = countOfEachLocation[location]
+    const key = getLocationKey(location)
 
     return {
       location,
       count,
+      key,
     }
   })
 
   return formattedLocations
+}
+
+function getLocationKey(location: string) {
+  return location
+    .toLowerCase()
+    .replaceAll(' ', '-')
+    .replaceAll(',', '')
+    .replaceAll('(', '')
+    .replaceAll(')', '')
 }
 
 export { getLocation }
