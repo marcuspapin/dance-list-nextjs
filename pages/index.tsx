@@ -1,4 +1,4 @@
-import { getLocation } from 'helpers/helpers'
+import { getLocations } from 'helpers/helpers'
 
 import CityCard from 'components/CityCard'
 import DanceBackground from 'components/DanceBackground'
@@ -6,7 +6,7 @@ import Navigation from 'components/Navigation'
 import Footer from 'components/Footer'
 
 function HomePage() {
-  const locations = getLocation()
+  const locations = getLocations()
   return (
     <>
       <Navigation />
@@ -19,8 +19,8 @@ function HomePage() {
           </h2>
 
           <div className="pt-8 grid content-center grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-            {locations.map((location, i) => (
-              <CityCard key={i} city={location} />
+            {locations.map((location) => (
+              <CityCard key={location.key} city={location} />
             ))}
           </div>
         </div>

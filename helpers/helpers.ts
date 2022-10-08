@@ -1,6 +1,6 @@
 import places from 'data/places.json'
 
-function getLocation() {
+function getLocations() {
   const locations = places.map(
     ({ city, country }: { city: string; country: string }) =>
       `${city.trim()}, ${country.trim()}`
@@ -37,4 +37,18 @@ function getLocationKey(location: string) {
     .replaceAll(')', '')
 }
 
-export { getLocation }
+function getPlaces(key: string) {
+  const formattedLocations = places.map((place) => {
+    const location = `${place.city.trim()}, ${place.country.trim()}`
+    return {
+      ...place,
+      key: getLocationKey(location),
+    }
+  })
+
+  return formattedLocations.filter(
+    ({ key: locationKey }) => key === locationKey
+  )
+}
+
+export { getLocations, getPlaces }

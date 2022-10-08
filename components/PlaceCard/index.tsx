@@ -2,12 +2,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button, Pill } from 'ui-library'
 
-function PlaceCard() {
+function PlaceCard({ place: { name } }: { place: { name: string } }) {
   return (
     <div className="p-4">
       <div className="border bg-light px-6 py-4 rounded-lg flex flex-col justify-center items-center max-w-[1000px] lg:justify-between lg:flex-row">
         <div className="inline-block">
-          <p className="text-h4">Salsa Condesa</p>
+          <p className="text-h4">{name}</p>
           <p className="text-h6 pb-2">Studio/Academy</p>
           <div>
             <Link href="/">
@@ -30,7 +30,9 @@ function PlaceCard() {
         </div>
 
         <div className="flex items-center lg:justify-center">
-          <Button variant="dark" href="/place/salsa-condesa">Learn More</Button>
+          <Button variant="dark" href="/place/salsa-condesa">
+            Learn More
+          </Button>
         </div>
       </div>
     </div>
