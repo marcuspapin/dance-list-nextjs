@@ -1,0 +1,647 @@
+[
+  {
+    "country": "Mexico",
+    "city": "Mexico City",
+    "address": " C. Río Lerma 218, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
+    "name": "El Babalu",
+    "website": "",
+    "instagram": "https://www.instagram.com/el.babalu/?hl=en",
+    "facebook": "https://www.facebook.com/elbabalu/",
+    "dance Styles": "Salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "Tuesday 9pm, Wednesday 9pm, Thursday 9pm"
+ },
+  {
+    "country": "Mexico",
+    "city": "Mexico City",
+    "address": "Salsa Dance Club Condesa, Gral. Salvador Alvarado 20, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX, Mexico",
+    "name": "Salsa Dance Club Condesa",
+    "website": "www.salsacondesa.com",
+    "instagram": "https://www.instagram.com/salsacondesa/?hl=en",
+    "facebook": "https://www.facebook.com/salsacondesa/",
+    "dance Styles": "salsa, salsa cubana, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "Monday - Friday 7pm - 10pm, Saturday - Sunday 11:30am - 2:30pm"
+ },
+  {
+    "country": "Mexico",
+    "city": "Mexico City",
+    "address": "Av. Ejército Nacional Mexicano 42-Interior 2G, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, Mexico",
+    "name": "Salsa Dance Club Polanco Condesa",
+    "website": "www.salsacondesa.com",
+    "instagram": "https://www.instagram.com/salsacondesa/?hl=en",
+    "facebook": "https://www.facebook.com/salsacondesa/",
+    "dance Styles": "salsa cubana, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "Monday - Friday 7pm - 10pm"
+ },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "address": "ulitsa \"Professor Atanas Ishirkov\" 11, 1734 Studentski Kompleks, Sofia, Bulgaria",
+    "name": "Crazy Youth Dance Club",
+    "website": "https://time4.dance/sofia/salsa",
+    "instagram": "",
+    "facebook": "",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "Tuesday 8pm-9pm, Thursday 8pm-9pm"
+ },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "address": "Korab Planina Street № 8",
+    "name": "Palette Dance Spot",
+    "website": "https://time4.dance/sofia/salsa",
+    "instagram": "",
+    "facebook": "",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "Tuesday 8:30pm - 9:25pm, Thursday 8:30pm-9:25pm"
+ },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "address": "Near Sofia Univercity (check Facebook)",
+    "name": "Tanci v parka",
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/groups/158505664343868/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Sunday afternoons"
+ },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "address": "Mixtape club in the NDK underpass (check socials)",
+    "name": "Time Out Salsa",
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/TimeOutSalsaNight/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Tuesday nights "
+ },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "address": "ul. \"Tsar Samuil\" 75-63, 1000 Sofia Center, Sofia, Bulgaria",
+    "name": "Latin Force Dance Studio",
+    "website": "https://latinforce.bg/",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/LatinForceDanceStudio/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "(events vary, check socials/website)"
+ },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "address": "ul. \"Akademik Zhak Natan\" 9-3, 1700 Studentski Kompleks, Sofia, Bulgaria",
+    "name": "Ritmo",
+    "website": "https://www.ritmo.bg/home",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/ritmo.bg/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "(events vary, check socials/website)"
+ },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "address": "ulitsa „Georgi S. Rakovski“ 78, 1000 Sofia Center, Sofia",
+    "name": "Paletro and Palante",
+    "website": "https://www.palante.eu/en",
+    "instagram": "",
+    "facebook": "",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "(events vary, check socials/website)"
+ },
+  {
+    "country": "United States",
+    "city": "Rockville, Maryland",
+    "address": "(mulitple locations, see website/socials)",
+    "name": "All Out Danza",
+    "website": "https://alloutdanza.com/",
+    "instagram": "https://www.instagram.com/alloutdanza/?hl=en",
+    "facebook": "https://www.facebook.com/alloutdanza/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "(events vary, check website, socials)"
+ },
+  {
+    "country": "Colombia",
+    "city": "Medellin",
+    "address": "Carrera 73, Av. San Juan ##44-56, Medellín, Antioquia, Colombia",
+    "name": "Son Havana",
+    "website": "",
+    "instagram": "https://www.instagram.com/sonhavana/?hl=en",
+    "facebook": "https://www.facebook.com/sonhavana/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "United States",
+    "city": "Washington, DC",
+    "address": "Mr. Mambos MD, 2126 Industrial Pkwy, Silver Spring, MD 20904, United States",
+    "name": "Mr. Mambos",
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/mrmambosdc/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "United States",
+    "city": "Washington, DC",
+    "address": "3232 Georgia Ave. NW, Suite 104",
+    "name": "Salsa With Silvia",
+    "website": "https://salsawithsilvia.com/",
+    "instagram": "https://www.instagram.com/salsawithsilvia/",
+    "facebook": "https://www.facebook.com/salsawithsilvia/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "(events vary, check socials, website)"
+ },
+  {
+    "country": "United States",
+    "city": "Rockville, Maryland",
+    "address": "(mulitple locations, see website/socials)",
+    "name": "Salsa with JJ",
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/SalsawithJJ/?ref=page_internal",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes ",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "United States",
+    "city": "Washington, DC",
+    "address": "",
+    "name": "Salsa Underground DC",
+    "website": "https://www.salsaundergrounddc.com/",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/groups/140366129454316/members",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "United States",
+    "city": "San Fransisco, CA",
+    "address": "Cigar Bar and Grill, 850 Montgomery Street, San Francisco, CA",
+    "name": "Cigar Bar",
+    "website": "https://www.cigarbarandgrill.com/salsa-classes/",
+    "instagram": "https://www.instagram.com/cigarbar_sf/?hl=en",
+    "facebook": "https://www.facebook.com/cigarbarsf/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Friday/Saturday Nights"
+ },
+  {
+    "country": "United States",
+    "city": "San Fransisco, CA",
+    "address": "The Ramp Restaurant, 855 Terry A Francois Blvd, San Francisco, CA 94158, United States",
+    "name": "The Ramp",
+    "website": "https://rampsf.com/",
+    "instagram": "https://www.instagram.com/theramprestaurant/",
+    "facebook": "https://www.facebook.com/therampsf/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Saturday Afternoons"
+ },
+  {
+    "country": "United States",
+    "city": "San Fransisco, CA",
+    "address": "550 Barneveld Avenue, San Francisco, CA 94124",
+    "name": "Space 550",
+    "website": "http://www.space550sf.com/",
+    "instagram": "https://www.instagram.com/space550/",
+    "facebook": "",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Friday Nights"
+ },
+  {
+    "country": "Netherlands",
+    "city": "Eindhoven",
+    "address": "Stratumseind ​​65\n5611EP Eindhoven",
+    "name": "Santiago De Cuba",
+    "website": "https://www.santiagodecuba.nl/",
+    "instagram": "https://www.instagram.com/santiagodecubaeindhoven/?hl=en",
+    "facebook": "https://www.facebook.com/SantiagodeCubaEindhoven/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "Friday/Saturday nights. Check socials for lessons during the week"
+ },
+  {
+    "country": "United States",
+    "city": "Seattle",
+    "address": "2000 S Jackson St\n\nSeattle, WA 98144",
+    "name": "Salsa N Seattle",
+    "website": "https://www.yelp.com/biz/salsa-n-seattle-seattle-3",
+    "instagram": "https://www.instagram.com/salsanseattle/?hl=en",
+    "facebook": "https://www.facebook.com/salsanseattledance/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "United States",
+    "city": "Seattle",
+    "address": "Century Ballroom  915 E Pine St.  2nd Floor  Seattle WA 98122",
+    "name": "Century Ballroom",
+    "website": "https://www.centuryballroom.com/home/",
+    "instagram": "https://www.instagram.com/centuryballroom/",
+    "facebook": "https://www.facebook.com/centuryballroom/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "United States",
+    "city": "Seattle",
+    "address": "6512 Roosevelt Way NE, Seattle, WA 98115",
+    "name": "Suenos de Salsa",
+    "website": "http://suenosdesalsa.com/",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/SuenosdeSalsa?fref=ts",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "United States",
+    "city": "Seattle",
+    "address": "211 N 36th St, Seattle, WA 98103, United States",
+    "name": "Salsa con Todo",
+    "website": "https://www.salsacontodo.com/",
+    "instagram": "https://www.instagram.com/salsacontodo/?hl=en",
+    "facebook": "https://www.facebook.com/Salsa-Con-Todo-Studio-111100202235359/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "(events vary, check socials/ website)"
+ },
+  {
+    "country": "United States",
+    "city": "Brookyn (New York)",
+    "address": "Willoughby Plaza, Willoughby Plaza, Brooklyn, NY 11201, USA",
+    "name": "Salsa Salsa NYC",
+    "website": "https://www.salsasalsadancestudio.com/events-1/outdoor-salsa-willoughby-plaza-2022-08-03-17-00",
+    "instagram": "https://www.instagram.com/salsasalsanyc/",
+    "facebook": "https://www.facebook.com/SalsaSalsanyc/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "Wednesdays 5pm (August 2022)"
+ },
+  {
+    "country": "United States",
+    "city": "Brookyn (New York)",
+    "address": "445 Albee Square W\nBrooklyn, NY 11201 United States",
+    "name": "Go Latin Dance",
+    "website": "https://golatindance.com/event/brooklyns-underground-salsa-party-every-thursday-understudy/2022-06-16/",
+    "instagram": "https://www.instagram.com/golatindance/",
+    "facebook": "https://www.facebook.com/GoLatinDance/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Thursdays 8pm"
+ },
+  {
+    "country": "United States",
+    "city": "Brookyn (New York)",
+    "address": "34 35th Street\nNew York, NY 11232 United States",
+    "name": "Go Latin Dance",
+    "website": "https://golatindance.com/venue/sahadis-industry-city/",
+    "instagram": "https://www.instagram.com/golatindance/",
+    "facebook": "https://www.facebook.com/GoLatinDance/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Fridays 7pm"
+ },
+  {
+    "country": "United States",
+    "city": "Brookyn (New York)",
+    "address": "Salsa Salsa Dance Studio, 55 4th Ave, Brooklyn, NY 11217, USA",
+    "name": "Salsa Salsa NYC",
+    "website": "https://www.salsasalsadancestudio.com/home",
+    "instagram": "https://www.instagram.com/salsasalsanyc/",
+    "facebook": "https://www.facebook.com/SalsaSalsanyc/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "7pm on various Saturdays (June 18, July 16, August 20, September 17, October 15, November 19)"
+ },
+  {
+    "country": "United States",
+    "city": "Manhattan (New York)",
+    "address": "48 W 21st St, New York, NY 10010, United States",
+    "name": "Taj Lounge",
+    "website": "https://www.tajlounge.com/index.php?route=information/week",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/TajLoungeNYC/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Mondays 5pm"
+ },
+  {
+    "country": "United States",
+    "city": "Manhattan (New York)",
+    "address": "Pier 45 at Hudson River Park, Hudson River Greenway, New York, NY 10014, United States",
+    "name": "Hudson River Park",
+    "website": "https://hudsonriverpark.org/visit/events/event/salsa-3/",
+    "instagram": "",
+    "facebook": "",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Tuesdays 6:30 (may 31-june 28)"
+ },
+  {
+    "country": "United States",
+    "city": "Manhattan (New York)",
+    "address": "32 East 9th Street (between 2nd and 3rd Avenues / Stuyvesant Street), in the East Village of downtown Manhattan.",
+    "name": "Solas",
+    "website": "https://www.salsanewyork.com/events/baila-wednesdays-at-solas.htm",
+    "instagram": "",
+    "facebook": "",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Wednesdays 8pm"
+ },
+  {
+    "country": "United States",
+    "city": "Manhattan (New York)",
+    "address": "Copacabana Nightclub, 625 W 51st St, New York, NY 10019, United States",
+    "name": "Copacabana",
+    "website": "https://copacabana.com/the-copacabana-night-club",
+    "instagram": "",
+    "facebook": "",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Saturdays 8pm"
+ },
+  {
+    "country": "United States",
+    "city": "Manhattan (New York)",
+    "address": "35 E 13th St 2nd fl, New York, NY 10003, United States",
+    "name": "Club Cache",
+    "website": "https://www.clubcachenyc.com/",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/ClubCacheNYC/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Saturdays 9pm"
+ },
+  {
+    "country": "United States",
+    "city": "San Diego, CA",
+    "address": "3567 Del Rey Street, San Diego, Ca 92109",
+    "name": "Tango Del Rey",
+    "website": "http://www.tangodelrey.com/TangoDelRey/Home.html",
+    "instagram": "https://www.instagram.com/tangodelrey/?hl=en",
+    "facebook": "https://www.facebook.com/TangoDelRey",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Friday/Saturday 8pm-1am"
+ },
+  {
+    "country": "United States",
+    "city": "Tempe, AZ",
+    "address": " 2000 E Rio Salado Pkwy Suite 1100, Tempe, AZ 85281, United States",
+    "name": "Dave and Busters",
+    "website": "https://salsadancingphoenix.com/wednesday-night-salsa-dave-busters/",
+    "instagram": "",
+    "facebook": "",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Wednesday 7pm"
+ },
+  {
+    "country": "United States",
+    "city": "Phoenix, AZ",
+    "address": "525 S. Central Phoenix, AZ",
+    "name": "The Duce",
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/LatinNightAtTheDuce/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Thursdays 8pm"
+ },
+  {
+    "country": "United States",
+    "city": "Tempe, AZ",
+    "address": "1290 N Scottsdale Rd, Tempe, AZ",
+    "name": "Mijanas",
+    "website": "https://salsadancingphoenix.com/friday-night-salsa-at-mijana/",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/tumbaofridays/",
+    "dance Styles": "salsa",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Fridays 9pm"
+ },
+  {
+    "country": "England, UK",
+    "city": " Southampton",
+    "address": "123-125 Above Bar St, Southampton SO14 7FH, United Kingdom",
+    "name": "Baila a lo loco",
+    "website": "",
+    "instagram": "https://www.instagram.com/bailaaloloco/",
+    "facebook": "https://www.facebook.com/bailaalolocoportsmouth/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "Mondays - Salsa 7.30pm - 8.30pm, Bachata 8.30pm - 9.30pm, SBK social 9pm - 11pm"
+ },
+  {
+    "country": "England, UK",
+    "city": "Portsmouth",
+    "address": "(Check Socials)",
+    "name": "Salsa Solent",
+    "website": "https://salsasolent.com/",
+    "instagram": "https://www.instagram.com/salsasolent/",
+    "facebook": "https://www.facebook.com/SalsaSolent",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "No",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "England, UK",
+    "city": "Portsmouth",
+    "address": "Southsea, Portsmouth, Southsea PO4 0SW, United Kingdom",
+    "name": "Gaiety Southsea",
+    "website": "https://www.thegaietysouthsea.co.uk/",
+    "instagram": "",
+    "facebook": "",
+    "dance Styles": "salsa, bachata, Kizomabo",
+    "academy": {
+       "Studio": "No"
+    },
+    "social": "Yes",
+    "schedule": "Tuesdays - 8-11. Salsa/Bachata/Socials"
+ },
+  {
+    "country": "Scotland, UK",
+    "city": "Aberdeen",
+    "address": "Academy Centre, Belmont St, Aberdeen AB10 1LB, United Kingdom",
+    "name": "Latin Dance Aberdeen",
+    "website": "https://latindanceaberdeen.com/",
+    "instagram": "",
+    "facebook": "www.facebook.com/latindanceaberdeen",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "Wednesdays, Salsa / Bachata classes 7pm-10pm Social 10pm - 1 am"
+ },
+  {
+    "country": "England, UK",
+    "city": "Coventry",
+    "address": "The Yard, 11- 12 Bull Yard, Coventry, United Kingdom",
+    "name": "SuperbSalsa",
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/profile.php?id=100057731310569",
+    "dance Styles": "cuban salsa",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "(events vary, check socials)"
+ },
+  {
+    "country": "Canada",
+    "city": "Toronto",
+    "address": "958 Broadview Ave, East York, ON M4K 2R6",
+    "name": "Toronto Salsa Fridays",
+    "website": "",
+    "instagram": "",
+    "facebook": "https://www.facebook.com/TorontoSalsaFridays/",
+    "dance Styles": "salsa, bachata",
+    "academy": {
+       "Studio": "Yes"
+    },
+    "social": "Yes",
+    "schedule": "Fridays 8pm"
+ }
+ ]
