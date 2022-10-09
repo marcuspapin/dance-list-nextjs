@@ -8,9 +8,7 @@
     "instagram": "https://www.instagram.com/el.babalu/?hl=en",
     "facebook": "https://www.facebook.com/elbabalu/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "Tuesday 9pm, Wednesday 9pm, Thursday 9pm"
   },
@@ -23,9 +21,7 @@
     "instagram": "https://www.instagram.com/salsacondesa/?hl=en",
     "facebook": "https://www.facebook.com/salsacondesa/",
     "dance_styles": ["salsa", "cuban_salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "Monday - Friday 7pm - 10pm, Saturday - Sunday 11:30am - 2:30pm"
   },
@@ -38,9 +34,7 @@
     "instagram": "https://www.instagram.com/salsacondesa/?hl=en",
     "facebook": "https://www.facebook.com/salsacondesa/",
     "dance_styles": ["cuban_salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "Monday - Friday 7pm - 10pm"
   },
@@ -53,9 +47,7 @@
     "instagram": "",
     "facebook": "",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "Tuesday 8pm-9pm, Thursday 8pm-9pm"
   },
@@ -68,9 +60,7 @@
     "instagram": "",
     "facebook": "",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "Tuesday 8:30pm - 9:25pm, Thursday 8:30pm-9:25pm"
   },
@@ -83,9 +73,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/groups/158505664343868/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": true,
     "social": true,
     "schedule": "Sunday afternoons"
   },
@@ -98,9 +86,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/TimeOutSalsaNight/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Tuesday nights "
   },
@@ -113,9 +99,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/LatinForceDanceStudio/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "(events vary, check socials/website)"
   },
@@ -128,9 +112,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/ritmo.bg/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "(events vary, check socials/website)"
   },
@@ -143,9 +125,7 @@
     "instagram": "",
     "facebook": "",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "(events vary, check socials/website)"
   },
@@ -158,9 +138,7 @@
     "instagram": "https://www.instagram.com/alloutdanza/?hl=en",
     "facebook": "https://www.facebook.com/alloutdanza/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "(events vary, check website, socials)"
   },
@@ -173,9 +151,7 @@
     "instagram": "https://www.instagram.com/sonhavana/?hl=en",
     "facebook": "https://www.facebook.com/sonhavana/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "(events vary, check socials)"
   },
@@ -188,9 +164,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/mrmambosdc/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "(events vary, check socials)"
   },
@@ -203,9 +177,7 @@
     "instagram": "https://www.instagram.com/salsawithsilvia/",
     "facebook": "https://www.facebook.com/salsawithsilvia/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "(events vary, check socials, website)"
   },
@@ -218,9 +190,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/SalsawithJJ/?ref=page_internal",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": "Yes ",
     "schedule": "(events vary, check socials)"
   },
@@ -233,9 +203,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/groups/140366129454316/members",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "(events vary, check socials)"
   },
@@ -248,9 +216,7 @@
     "instagram": "https://www.instagram.com/cigarbar_sf/?hl=en",
     "facebook": "https://www.facebook.com/cigarbarsf/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Friday/Saturday Nights"
   },
@@ -263,9 +229,7 @@
     "instagram": "https://www.instagram.com/theramprestaurant/",
     "facebook": "https://www.facebook.com/therampsf/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Saturday Afternoons"
   },
@@ -278,9 +242,7 @@
     "instagram": "https://www.instagram.com/space550/",
     "facebook": "",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Friday Nights"
   },
@@ -293,9 +255,7 @@
     "instagram": "https://www.instagram.com/santiagodecubaeindhoven/?hl=en",
     "facebook": "https://www.facebook.com/SantiagodeCubaEindhoven/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "Friday/Saturday nights. Check socials for lessons during the week"
   },
@@ -308,9 +268,7 @@
     "instagram": "https://www.instagram.com/salsanseattle/?hl=en",
     "facebook": "https://www.facebook.com/salsanseattledance/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "(events vary, check socials)"
   },
@@ -323,9 +281,7 @@
     "instagram": "https://www.instagram.com/centuryballroom/",
     "facebook": "https://www.facebook.com/centuryballroom/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "(events vary, check socials)"
   },
@@ -338,9 +294,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/SuenosdeSalsa?fref=ts",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "(events vary, check socials)"
   },
@@ -353,9 +307,7 @@
     "instagram": "https://www.instagram.com/salsacontodo/?hl=en",
     "facebook": "https://www.facebook.com/Salsa-Con-Todo-Studio-111100202235359/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "(events vary, check socials/ website)"
   },
@@ -368,9 +320,7 @@
     "instagram": "https://www.instagram.com/salsasalsanyc/",
     "facebook": "https://www.facebook.com/SalsaSalsanyc/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "Wednesdays 5pm (August 2022)"
   },
@@ -383,9 +333,7 @@
     "instagram": "https://www.instagram.com/golatindance/",
     "facebook": "https://www.facebook.com/GoLatinDance/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Thursdays 8pm"
   },
@@ -398,9 +346,7 @@
     "instagram": "https://www.instagram.com/golatindance/",
     "facebook": "https://www.facebook.com/GoLatinDance/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Fridays 7pm"
   },
@@ -413,9 +359,7 @@
     "instagram": "https://www.instagram.com/salsasalsanyc/",
     "facebook": "https://www.facebook.com/SalsaSalsanyc/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "7pm on various Saturdays (June 18, July 16, August 20, September 17, October 15, November 19)"
   },
@@ -428,9 +372,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/TajLoungeNYC/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Mondays 5pm"
   },
@@ -443,9 +385,7 @@
     "instagram": "",
     "facebook": "",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Tuesdays 6:30 (may 31-june 28)"
   },
@@ -458,9 +398,7 @@
     "instagram": "",
     "facebook": "",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Wednesdays 8pm"
   },
@@ -473,9 +411,7 @@
     "instagram": "",
     "facebook": "",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Saturdays 8pm"
   },
@@ -488,9 +424,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/ClubCacheNYC/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Saturdays 9pm"
   },
@@ -503,9 +437,7 @@
     "instagram": "https://www.instagram.com/tangodelrey/?hl=en",
     "facebook": "https://www.facebook.com/TangoDelRey",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Friday/Saturday 8pm-1am"
   },
@@ -518,9 +450,7 @@
     "instagram": "",
     "facebook": "",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Wednesday 7pm"
   },
@@ -533,9 +463,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/LatinNightAtTheDuce/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Thursdays 8pm"
   },
@@ -548,9 +476,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/tumbaofridays/",
     "dance_styles": ["salsa"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Fridays 9pm"
   },
@@ -563,9 +489,7 @@
     "instagram": "https://www.instagram.com/bailaaloloco/",
     "facebook": "https://www.facebook.com/bailaalolocoportsmouth/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "Mondays - Salsa 7.30pm - 8.30pm, Bachata 8.30pm - 9.30pm, SBK social 9pm - 11pm"
   },
@@ -578,9 +502,7 @@
     "instagram": "https://www.instagram.com/salsasolent/",
     "facebook": "https://www.facebook.com/SalsaSolent",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": false,
     "schedule": "(events vary, check socials)"
   },
@@ -593,9 +515,7 @@
     "instagram": "",
     "facebook": "",
     "dance_styles": ["salsa", "bachata", "kizumba"],
-    "academy": {
-      "Studio": false
-    },
+    "academy": false,
     "social": true,
     "schedule": "Tuesdays - 8-11. Salsa/Bachata/Socials"
   },
@@ -608,9 +528,7 @@
     "instagram": "",
     "facebook": "www.facebook.com/latindanceaberdeen",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "Wednesdays, Salsa / Bachata classes 7pm-10pm Social 10pm - 1 am"
   },
@@ -623,9 +541,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/profile.php?id=100057731310569",
     "dance_styles": ["cuban salsa"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "(events vary, check socials)"
   },
@@ -638,9 +554,7 @@
     "instagram": "",
     "facebook": "https://www.facebook.com/TorontoSalsaFridays/",
     "dance_styles": ["salsa", "bachata"],
-    "academy": {
-      "Studio": true
-    },
+    "academy": true,
     "social": true,
     "schedule": "Fridays 8pm"
   }
