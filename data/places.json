@@ -7,13 +7,13 @@
     "website": "",
     "instagram": "https://www.instagram.com/el.babalu/?hl=en",
     "facebook": "https://www.facebook.com/elbabalu/",
-    "dance Styles": "Salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Tuesday 9pm, Wednesday 9pm, Thursday 9pm"
- },
+  },
   {
     "country": "Mexico",
     "city": "Mexico City",
@@ -22,13 +22,13 @@
     "website": "www.salsacondesa.com",
     "instagram": "https://www.instagram.com/salsacondesa/?hl=en",
     "facebook": "https://www.facebook.com/salsacondesa/",
-    "dance Styles": "salsa, salsa cubana, bachata",
+    "dance_styles": ["salsa", "cuban_salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "Monday - Friday 7pm - 10pm, Saturday - Sunday 11:30am - 2:30pm"
- },
+  },
   {
     "country": "Mexico",
     "city": "Mexico City",
@@ -37,13 +37,13 @@
     "website": "www.salsacondesa.com",
     "instagram": "https://www.instagram.com/salsacondesa/?hl=en",
     "facebook": "https://www.facebook.com/salsacondesa/",
-    "dance Styles": "salsa cubana, bachata",
+    "dance_styles": ["cuban_salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "Monday - Friday 7pm - 10pm"
- },
+  },
   {
     "country": "Bulgaria",
     "city": "Sofia",
@@ -52,13 +52,13 @@
     "website": "https://time4.dance/sofia/salsa",
     "instagram": "",
     "facebook": "",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "Tuesday 8pm-9pm, Thursday 8pm-9pm"
- },
+  },
   {
     "country": "Bulgaria",
     "city": "Sofia",
@@ -67,13 +67,13 @@
     "website": "https://time4.dance/sofia/salsa",
     "instagram": "",
     "facebook": "",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "Tuesday 8:30pm - 9:25pm, Thursday 8:30pm-9:25pm"
- },
+  },
   {
     "country": "Bulgaria",
     "city": "Sofia",
@@ -82,13 +82,13 @@
     "website": "",
     "instagram": "",
     "facebook": "https://www.facebook.com/groups/158505664343868/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Sunday afternoons"
- },
+  },
   {
     "country": "Bulgaria",
     "city": "Sofia",
@@ -97,13 +97,13 @@
     "website": "",
     "instagram": "",
     "facebook": "https://www.facebook.com/TimeOutSalsaNight/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Tuesday nights "
- },
+  },
   {
     "country": "Bulgaria",
     "city": "Sofia",
@@ -112,13 +112,13 @@
     "website": "https://latinforce.bg/",
     "instagram": "",
     "facebook": "https://www.facebook.com/LatinForceDanceStudio/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "(events vary, check socials/website)"
- },
+  },
   {
     "country": "Bulgaria",
     "city": "Sofia",
@@ -127,13 +127,13 @@
     "website": "https://www.ritmo.bg/home",
     "instagram": "",
     "facebook": "https://www.facebook.com/ritmo.bg/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "(events vary, check socials/website)"
- },
+  },
   {
     "country": "Bulgaria",
     "city": "Sofia",
@@ -142,13 +142,13 @@
     "website": "https://www.palante.eu/en",
     "instagram": "",
     "facebook": "",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "(events vary, check socials/website)"
- },
+  },
   {
     "country": "United States",
     "city": "Rockville, Maryland",
@@ -157,13 +157,13 @@
     "website": "https://alloutdanza.com/",
     "instagram": "https://www.instagram.com/alloutdanza/?hl=en",
     "facebook": "https://www.facebook.com/alloutdanza/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "(events vary, check website, socials)"
- },
+  },
   {
     "country": "Colombia",
     "city": "Medellin",
@@ -172,13 +172,13 @@
     "website": "",
     "instagram": "https://www.instagram.com/sonhavana/?hl=en",
     "facebook": "https://www.facebook.com/sonhavana/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "United States",
     "city": "Washington, DC",
@@ -187,13 +187,13 @@
     "website": "",
     "instagram": "",
     "facebook": "https://www.facebook.com/mrmambosdc/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "United States",
     "city": "Washington, DC",
@@ -202,13 +202,13 @@
     "website": "https://salsawithsilvia.com/",
     "instagram": "https://www.instagram.com/salsawithsilvia/",
     "facebook": "https://www.facebook.com/salsawithsilvia/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "(events vary, check socials, website)"
- },
+  },
   {
     "country": "United States",
     "city": "Rockville, Maryland",
@@ -217,13 +217,13 @@
     "website": "",
     "instagram": "",
     "facebook": "https://www.facebook.com/SalsawithJJ/?ref=page_internal",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
     "social": "Yes ",
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "United States",
     "city": "Washington, DC",
@@ -232,13 +232,13 @@
     "website": "https://www.salsaundergrounddc.com/",
     "instagram": "",
     "facebook": "https://www.facebook.com/groups/140366129454316/members",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "United States",
     "city": "San Fransisco, CA",
@@ -247,13 +247,13 @@
     "website": "https://www.cigarbarandgrill.com/salsa-classes/",
     "instagram": "https://www.instagram.com/cigarbar_sf/?hl=en",
     "facebook": "https://www.facebook.com/cigarbarsf/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Friday/Saturday Nights"
- },
+  },
   {
     "country": "United States",
     "city": "San Fransisco, CA",
@@ -262,13 +262,13 @@
     "website": "https://rampsf.com/",
     "instagram": "https://www.instagram.com/theramprestaurant/",
     "facebook": "https://www.facebook.com/therampsf/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Saturday Afternoons"
- },
+  },
   {
     "country": "United States",
     "city": "San Fransisco, CA",
@@ -277,13 +277,13 @@
     "website": "http://www.space550sf.com/",
     "instagram": "https://www.instagram.com/space550/",
     "facebook": "",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Friday Nights"
- },
+  },
   {
     "country": "Netherlands",
     "city": "Eindhoven",
@@ -292,13 +292,13 @@
     "website": "https://www.santiagodecuba.nl/",
     "instagram": "https://www.instagram.com/santiagodecubaeindhoven/?hl=en",
     "facebook": "https://www.facebook.com/SantiagodeCubaEindhoven/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Friday/Saturday nights. Check socials for lessons during the week"
- },
+  },
   {
     "country": "United States",
     "city": "Seattle",
@@ -307,13 +307,13 @@
     "website": "https://www.yelp.com/biz/salsa-n-seattle-seattle-3",
     "instagram": "https://www.instagram.com/salsanseattle/?hl=en",
     "facebook": "https://www.facebook.com/salsanseattledance/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "United States",
     "city": "Seattle",
@@ -322,13 +322,13 @@
     "website": "https://www.centuryballroom.com/home/",
     "instagram": "https://www.instagram.com/centuryballroom/",
     "facebook": "https://www.facebook.com/centuryballroom/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "United States",
     "city": "Seattle",
@@ -337,13 +337,13 @@
     "website": "http://suenosdesalsa.com/",
     "instagram": "",
     "facebook": "https://www.facebook.com/SuenosdeSalsa?fref=ts",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "United States",
     "city": "Seattle",
@@ -352,13 +352,13 @@
     "website": "https://www.salsacontodo.com/",
     "instagram": "https://www.instagram.com/salsacontodo/?hl=en",
     "facebook": "https://www.facebook.com/Salsa-Con-Todo-Studio-111100202235359/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "(events vary, check socials/ website)"
- },
+  },
   {
     "country": "United States",
     "city": "Brookyn (New York)",
@@ -367,13 +367,13 @@
     "website": "https://www.salsasalsadancestudio.com/events-1/outdoor-salsa-willoughby-plaza-2022-08-03-17-00",
     "instagram": "https://www.instagram.com/salsasalsanyc/",
     "facebook": "https://www.facebook.com/SalsaSalsanyc/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Wednesdays 5pm (August 2022)"
- },
+  },
   {
     "country": "United States",
     "city": "Brookyn (New York)",
@@ -382,13 +382,13 @@
     "website": "https://golatindance.com/event/brooklyns-underground-salsa-party-every-thursday-understudy/2022-06-16/",
     "instagram": "https://www.instagram.com/golatindance/",
     "facebook": "https://www.facebook.com/GoLatinDance/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Thursdays 8pm"
- },
+  },
   {
     "country": "United States",
     "city": "Brookyn (New York)",
@@ -397,13 +397,13 @@
     "website": "https://golatindance.com/venue/sahadis-industry-city/",
     "instagram": "https://www.instagram.com/golatindance/",
     "facebook": "https://www.facebook.com/GoLatinDance/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Fridays 7pm"
- },
+  },
   {
     "country": "United States",
     "city": "Brookyn (New York)",
@@ -412,13 +412,13 @@
     "website": "https://www.salsasalsadancestudio.com/home",
     "instagram": "https://www.instagram.com/salsasalsanyc/",
     "facebook": "https://www.facebook.com/SalsaSalsanyc/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "7pm on various Saturdays (June 18, July 16, August 20, September 17, October 15, November 19)"
- },
+  },
   {
     "country": "United States",
     "city": "Manhattan (New York)",
@@ -427,13 +427,13 @@
     "website": "https://www.tajlounge.com/index.php?route=information/week",
     "instagram": "",
     "facebook": "https://www.facebook.com/TajLoungeNYC/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Mondays 5pm"
- },
+  },
   {
     "country": "United States",
     "city": "Manhattan (New York)",
@@ -442,13 +442,13 @@
     "website": "https://hudsonriverpark.org/visit/events/event/salsa-3/",
     "instagram": "",
     "facebook": "",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Tuesdays 6:30 (may 31-june 28)"
- },
+  },
   {
     "country": "United States",
     "city": "Manhattan (New York)",
@@ -457,13 +457,13 @@
     "website": "https://www.salsanewyork.com/events/baila-wednesdays-at-solas.htm",
     "instagram": "",
     "facebook": "",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Wednesdays 8pm"
- },
+  },
   {
     "country": "United States",
     "city": "Manhattan (New York)",
@@ -472,13 +472,13 @@
     "website": "https://copacabana.com/the-copacabana-night-club",
     "instagram": "",
     "facebook": "",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Saturdays 8pm"
- },
+  },
   {
     "country": "United States",
     "city": "Manhattan (New York)",
@@ -487,13 +487,13 @@
     "website": "https://www.clubcachenyc.com/",
     "instagram": "",
     "facebook": "https://www.facebook.com/ClubCacheNYC/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Saturdays 9pm"
- },
+  },
   {
     "country": "United States",
     "city": "San Diego, CA",
@@ -502,13 +502,13 @@
     "website": "http://www.tangodelrey.com/TangoDelRey/Home.html",
     "instagram": "https://www.instagram.com/tangodelrey/?hl=en",
     "facebook": "https://www.facebook.com/TangoDelRey",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Friday/Saturday 8pm-1am"
- },
+  },
   {
     "country": "United States",
     "city": "Tempe, AZ",
@@ -517,13 +517,13 @@
     "website": "https://salsadancingphoenix.com/wednesday-night-salsa-dave-busters/",
     "instagram": "",
     "facebook": "",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Wednesday 7pm"
- },
+  },
   {
     "country": "United States",
     "city": "Phoenix, AZ",
@@ -532,13 +532,13 @@
     "website": "",
     "instagram": "",
     "facebook": "https://www.facebook.com/LatinNightAtTheDuce/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Thursdays 8pm"
- },
+  },
   {
     "country": "United States",
     "city": "Tempe, AZ",
@@ -547,13 +547,13 @@
     "website": "https://salsadancingphoenix.com/friday-night-salsa-at-mijana/",
     "instagram": "",
     "facebook": "https://www.facebook.com/tumbaofridays/",
-    "dance Styles": "salsa",
+    "dance_styles": ["salsa"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Fridays 9pm"
- },
+  },
   {
     "country": "England, UK",
     "city": " Southampton",
@@ -562,13 +562,13 @@
     "website": "",
     "instagram": "https://www.instagram.com/bailaaloloco/",
     "facebook": "https://www.facebook.com/bailaalolocoportsmouth/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Mondays - Salsa 7.30pm - 8.30pm, Bachata 8.30pm - 9.30pm, SBK social 9pm - 11pm"
- },
+  },
   {
     "country": "England, UK",
     "city": "Portsmouth",
@@ -577,13 +577,13 @@
     "website": "https://salsasolent.com/",
     "instagram": "https://www.instagram.com/salsasolent/",
     "facebook": "https://www.facebook.com/SalsaSolent",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "No",
+    "social": false,
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "England, UK",
     "city": "Portsmouth",
@@ -592,13 +592,13 @@
     "website": "https://www.thegaietysouthsea.co.uk/",
     "instagram": "",
     "facebook": "",
-    "dance Styles": "salsa, bachata, Kizomabo",
+    "dance_styles": ["salsa", "bachata", "kizumba"],
     "academy": {
-       "Studio": "No"
+      "Studio": false
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Tuesdays - 8-11. Salsa/Bachata/Socials"
- },
+  },
   {
     "country": "Scotland, UK",
     "city": "Aberdeen",
@@ -607,13 +607,13 @@
     "website": "https://latindanceaberdeen.com/",
     "instagram": "",
     "facebook": "www.facebook.com/latindanceaberdeen",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Wednesdays, Salsa / Bachata classes 7pm-10pm Social 10pm - 1 am"
- },
+  },
   {
     "country": "England, UK",
     "city": "Coventry",
@@ -622,13 +622,13 @@
     "website": "",
     "instagram": "",
     "facebook": "https://www.facebook.com/profile.php?id=100057731310569",
-    "dance Styles": "cuban salsa",
+    "dance_styles": ["cuban salsa"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "(events vary, check socials)"
- },
+  },
   {
     "country": "Canada",
     "city": "Toronto",
@@ -637,11 +637,11 @@
     "website": "",
     "instagram": "",
     "facebook": "https://www.facebook.com/TorontoSalsaFridays/",
-    "dance Styles": "salsa, bachata",
+    "dance_styles": ["salsa", "bachata"],
     "academy": {
-       "Studio": "Yes"
+      "Studio": true
     },
-    "social": "Yes",
+    "social": true,
     "schedule": "Fridays 8pm"
- }
- ]
+  }
+]
