@@ -1,0 +1,74 @@
+[
+  {
+    "key": "mexico-city-mexico",
+    "image": "mexico-city-mexico.jpeg"
+  },
+  {
+    "key": "sofia-bulgaria",
+    "image": "sofia-bulgaria.webp"
+  },
+  {
+    "key": "rockville-maryland-united-states",
+    "image": "rockville-md.jpeg"
+  },
+  {
+    "key": "medellin-colombia",
+    "image": "medellin-colombia.jpeg"
+  },
+  {
+    "key": "washington-dc-united-states",
+    "image": "washington-dc.jpeg"
+  },
+  {
+    "key": "san-fransisco-ca-united-states",
+    "image": "san-fransisco.webp"
+  },
+  {
+    "key": "eindhoven-netherlands",
+    "image": "eindhoven-nd.jpeg"
+  },
+  {
+    "key": "seattle-united-states",
+    "image": "seattle-usa.jpg"
+  },
+  {
+    "key": "brookyn-new-york-united-states",
+    "image": "brooklyn-ny.jpg"
+  },
+  {
+    "key": "manhattan-new-york-united-states",
+    "image": "manhattan-ny.jpg"
+  },
+  {
+    "key": "san-diego-ca-united-states",
+    "image": "san-diego-ca.jpg"
+  },
+  {
+    "key": "tempe-az-united-states",
+    "image": "tempe-arizona.jpg"
+  },
+  {
+    "key": "phoenix-az-united-states",
+    "image": "phoniex-arizona.jpg"
+  },
+  {
+    "key": "southampton-england-uk",
+    "image": "southhampton-england.webp"
+  },
+  {
+    "key": "portsmouth-england-uk",
+    "image": "portsmouth-england.jpeg"
+  },
+  {
+    "key": "aberdeen-scotland-uk",
+    "image": "aberdeen-scotland.jpg"
+  },
+  {
+    "key": "coventry-england-uk",
+    "image": "coventry-england.jpeg"
+  },
+  {
+    "key": "toronto-canada",
+    "image": "toronto.png"
+  }
+]

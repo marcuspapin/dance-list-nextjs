@@ -1,4 +1,5 @@
 import places from 'data/places.json'
+import cities from 'data/cities.json'
 
 function getLocations() {
   const locations = places.map(
@@ -51,4 +52,10 @@ function getPlaces(key: string) {
   )
 }
 
-export { getLocations, getPlaces }
+function getCity(key) {
+  const city = cities.find(({ key: cityKey }) => key === cityKey)
+
+  return city
+}
+
+export { getLocations, getPlaces, getCity }
