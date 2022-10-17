@@ -5,8 +5,7 @@ import DanceBackground from 'components/DanceBackground'
 import Navigation from 'components/Navigation'
 import Footer from 'components/Footer'
 
-function HomePage() {
-  const locations = getLocations()
+function HomePage({ locations }: any) {
   return (
     <>
       <Navigation />
@@ -32,3 +31,10 @@ function HomePage() {
 }
 
 export default HomePage
+
+export function getStaticProps() {
+  const locations = getLocations()
+  return {
+    props: { locations },
+  }
+}
