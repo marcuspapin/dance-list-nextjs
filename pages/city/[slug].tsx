@@ -18,7 +18,7 @@ const CityPage = () => {
     <>
       <Navigation />
 
-      <DanceBackground title={key} />
+      <DanceBackground title={`${places[0].city}, ${places[0].country}`} />
 
       <div className="bg-dark flex flex-col items-center py-6">
         {places.map((place) => (
