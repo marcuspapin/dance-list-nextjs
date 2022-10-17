@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
+
+import { getKey } from 'helpers/helpers'
+
 import { Button, Pill } from 'ui-library'
 
 function PlaceCard({ place: { name } }: { place: { name: string } }) {
@@ -30,7 +33,7 @@ function PlaceCard({ place: { name } }: { place: { name: string } }) {
         </div>
 
         <div className="flex items-center lg:justify-center">
-          <Button variant="dark" href="/place/salsa-condesa">
+          <Button variant="dark" href={`/place/${getKey(name)}`}>
             Learn More
           </Button>
         </div>
