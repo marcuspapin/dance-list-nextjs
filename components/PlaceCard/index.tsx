@@ -5,7 +5,7 @@ import { Button, Pill } from 'ui-library'
 function PlaceCard({ place: { name } }: { place: { name: string } }) {
   return (
     <div className="p-4">
-      <div className="border bg-light px-6 py-4 rounded-lg flex flex-col justify-center items-center max-w-[1000px] lg:justify-between lg:flex-row">
+      <div className="border bg-light px-6 py-4 rounded-lg flex flex-col justify-center items-center w-[1000px] lg:justify-between lg:flex-row">
         <div className="inline-block">
           <p className="text-h4">{name}</p>
           <p className="text-h6 pb-2">Studio/Academy</p>
