@@ -7,7 +7,7 @@ function Navigation() {
   const isCities = router.asPath === '/'
 
   return (
-    <nav className="bg-dark py-8">
+    <nav className="bg-dark py-8 px-4">
       <div className="base-container flex justify-between">
         <div className="flex items-center">
           <Image src="/logo.png" width={225} height={25} />

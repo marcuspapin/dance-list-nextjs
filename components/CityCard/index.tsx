@@ -16,7 +16,7 @@ const CityCard = ({
   const { image } = getCity(key)
 
   return (
-    <div className="flex flex-col w-[350px] h-[300px] bg-gray rounded-xl m-4 mt-24">
+    <div className="flex flex-col w-[350px] h-[300px] bg-gray rounded-xl mb-4 mt-24 mx-auto">
       <div>
         <p className="relative -mb-32 z-50 text-h4 text-light">
           {city}, <br /> {country}
