@@ -53,6 +53,10 @@ function getLocationKey(location: string) {
     .replaceAll(')', '')
 }
 
+function getKey(str: string) {
+  return str.toLowerCase().replaceAll(' ', '-').replaceAll(',', '')
+}
+
 function getPlaces(key: string) {
   const formattedLocations = places.map((place) => {
     const location = `${place.city.trim()}, ${place.country.trim()}`
@@ -73,4 +77,4 @@ function getCity(key) {
   return city
 }
 
-export { getLocations, getPlaces, getCity }
+export { getLocations, getPlaces, getCity, getKey }

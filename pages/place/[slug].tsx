@@ -1,7 +1,10 @@
-import { useRouter } from 'next/router'
 import Image from 'next/image'
 
 import { Wrapper } from '@googlemaps/react-wrapper'
+
+import places from 'data/places.json'
+
+import { getKey } from 'helpers/helpers'
 
 import Pill from 'ui-library/Pill'
 
@@ -12,15 +15,11 @@ import PlaceCard from 'components/PlaceCard'
 import Map from 'components/Map'
 import Marker from 'components/Map/Marker'
 
-const CityPage = () => {
-  const router = useRouter()
-  const { slug } = router.query
-  const place = slug as string
-
+const CityPage = ({ place }: any) => {
   return (
     <>
       <Navigation />
-      <DanceBackground title={place} />
+      <DanceBackground title={place.name} />
 
       <div className="bg-dark flex flex-col items-center py-6">
         <div className="flex">
@@ -64,8 +63,8 @@ const CityPage = () => {
           <p className="text-h2 text-light text-center">
             Other Dance studios in Toronto
           </p>
-          <PlaceCard />
-          <PlaceCard />
+          {/* <PlaceCard />
+          <PlaceCard /> */}
         </div>
       </div>
 
@@ -75,3 +74,23 @@ const CityPage = () => {
 }
 
 export default CityPage
+
+export async function getStaticPaths() {
+  const paths = places.map(({ name }) => {
+    return { params: { slug: getKey(name) } }
+  })
+
+  return {
+    paths,
+    fallback: false, // can also be true or 'blocking'
+  }
+}
+
+export function getStaticProps(context) {
+  const slug = context.params.slug
+  const place = places.find((place) => {
+    return getKey(place.name) === slug
+  })
+
+  return { props: { place } }
+}
