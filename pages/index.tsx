@@ -20,7 +20,7 @@ function HomePage() {
 
           <div className="pt-8 grid content-center grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
             {locations.map((location) => (
-              <CityCard key={location.key} city={location} />
+              <CityCard key={location.key} location={location} />
             ))}
           </div>
         </div>

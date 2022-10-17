@@ -3,28 +3,43 @@ import cities from 'data/cities.json'
 
 function getLocations() {
   const locations = places.map(
-    ({ city, country }: { city: string; country: string }) =>
-      `${city.trim()}, ${country.trim()}`
+    ({ city, country }: { city: string; country: string }) => {
+      return { location: `${city.trim()}, ${country.trim()}`, city, country }
+    }
   )
 
   const countOfEachLocation = {}
-  locations.forEach((location) => {
+  locations.forEach(({ location }) => {
     countOfEachLocation[location] = (countOfEachLocation[location] || 0) + 1
   })
 
-  // use new Set to remove duplicates, then convert back to an array
-  const nonDuplicateLocations = Array.from(new Set(locations))
+  const nonDuplicateLocationKeys = []
 
-  const formattedLocations = nonDuplicateLocations.map((location) => {
-    const count = countOfEachLocation[location]
-    const key = getLocationKey(location)
+  const uniqueLocations = locations.filter((element) => {
+    const isDuplicate = nonDuplicateLocationKeys.includes(element.location)
 
-    return {
-      location,
-      count,
-      key,
+    if (!isDuplicate) {
+      nonDuplicateLocationKeys.push(element.location)
+      return true
     }
+
+    return false
   })
+
+  const formattedLocations = uniqueLocations.map(
+    ({ location, city, country }) => {
+      const count = countOfEachLocation[location]
+      const key = getLocationKey(location)
+
+      return {
+        location,
+        city,
+        country,
+        count,
+        key,
+      }
+    }
+  )
 
   return formattedLocations
 }
