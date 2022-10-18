@@ -77,4 +77,4 @@ function getCity(key) {
   return city
 }
 
-export { getLocations, getPlaces, getCity, getKey }
+export { getLocations, getPlaces, getCity, getKey, getLocationKey }
