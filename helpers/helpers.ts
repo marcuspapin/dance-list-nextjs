@@ -77,4 +77,27 @@ function getCity(key) {
   return city
 }
 
-export { getLocations, getPlaces, getCity, getKey, getLocationKey }
+function translateDanceStyles(
+  style: string
+): { formattedStyle: string; variant: string } {
+  if (style === 'salsa') {
+    return { formattedStyle: 'Salsa', variant: 'danger' }
+  }
+
+  if (style === 'bachata') {
+    return { formattedStyle: 'Bachata', variant: 'secondary' }
+  }
+
+  if (style === 'cuban_salsa') {
+    return { formattedStyle: 'Cuban Salsa', variant: 'primary' }
+  }
+}
+
+export {
+  getLocations,
+  getPlaces,
+  getCity,
+  getKey,
+  getLocationKey,
+  translateDanceStyles,
+}
