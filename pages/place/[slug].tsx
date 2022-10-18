@@ -141,18 +141,18 @@ export async function getStaticPaths() {
 }
 
 export function getStaticProps(context) {
-  const slug = context.params.slug
-  const place = places.find((place) => {
+  const slug: string = context.params.slug
+  const place: Place = places.find((place: Place) => {
     return getKey(place.name) === slug
   })
 
   const location = `${place.city.trim()}, ${place.country.trim()}`
 
-  const otherPlaces = getPlaces(getLocationKey(location))
+  const locationKey = getLocationKey(location)
 
-  const filteredOtherPlaces = otherPlaces.filter(
+  const otherPlaces: Place[] = getPlaces(locationKey).filter(
     (place) => getKey(place.name) !== slug
   )
 
-  return { props: { place, otherPlaces: filteredOtherPlaces } }
+  return { props: { place, otherPlaces } }
 }

@@ -1,19 +1,24 @@
 import { getPlaces, getLocations } from 'helpers/helpers'
 
+import { Place, Location } from 'interfaces'
+
 import DanceBackground from 'components/DanceBackground'
 import Footer from 'components/Footer'
 import Navigation from 'components/Navigation'
 import PlaceCard from 'components/PlaceCard'
 
-const CityPage = ({ places }: any) => {
+interface CityPageInterface {
+  places: Place[]
+}
+
+const CityPage = ({ places }: CityPageInterface) => {
   return (
     <>
       <Navigation />
-
       <DanceBackground title={`${places[0].city}, ${places[0].country}`} />
 
       <div className="bg-dark flex flex-col items-center py-6">
-        {places.map((place) => (
+        {places.map((place: Place) => (
           <PlaceCard key={place.name} place={place} />
         ))}
       </div>
@@ -26,9 +31,9 @@ const CityPage = ({ places }: any) => {
 export default CityPage
 
 export async function getStaticPaths() {
-  const locations = getLocations()
+  const locations: Location[] = getLocations()
 
-  const paths = locations.map(({ key }) => {
+  const paths = locations.map(({ key }: { key: string }) => {
     return { params: { slug: key } }
   })
 

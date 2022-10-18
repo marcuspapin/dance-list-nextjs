@@ -191,7 +191,7 @@
     "facebook": "https://www.facebook.com/SalsawithJJ/?ref=page_internal",
     "dance_styles": ["salsa"],
     "academy": true,
-    "social": "Yes ",
+    "social": true,
     "schedule": "(events vary, check socials)"
   },
   {

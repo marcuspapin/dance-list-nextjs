@@ -11,3 +11,11 @@ export interface Place {
   social: boolean
   website: string
 }
+
+export interface Location {
+  city: string
+  count: number
+  country: string
+  key: string
+  location: string
+}

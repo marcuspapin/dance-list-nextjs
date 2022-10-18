@@ -1,11 +1,17 @@
 import { getLocations } from 'helpers/helpers'
 
+import { Location } from 'interfaces'
+
 import CityCard from 'components/CityCard'
 import DanceBackground from 'components/DanceBackground'
 import Navigation from 'components/Navigation'
 import Footer from 'components/Footer'
 
-function HomePage({ locations }: any) {
+interface HomePageInterface {
+  locations: Location[]
+}
+
+function HomePage({ locations }: HomePageInterface) {
   return (
     <>
       <Navigation />
@@ -18,7 +24,7 @@ function HomePage({ locations }: any) {
           </h2>
 
           <div className="pt-8 grid content-center grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-            {locations.map((location) => (
+            {locations.map((location: Location) => (
               <CityCard key={location.key} location={location} />
             ))}
           </div>
@@ -33,7 +39,7 @@ function HomePage({ locations }: any) {
 export default HomePage
 
 export function getStaticProps() {
-  const locations = getLocations()
+  const locations: Location[] = getLocations()
   return {
     props: { locations },
   }
