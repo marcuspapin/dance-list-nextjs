@@ -2,7 +2,7 @@
   {
     "country": "Mexico",
     "city": "Mexico City",
-    "address": " C. Río Lerma 218, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
+    "address": "C. Río Lerma 218, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
     "name": "El Babalu",
     "website": "",
     "instagram": "https://www.instagram.com/el.babalu/?hl=en",
@@ -10,7 +10,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": true,
-    "schedule": "Tuesday 9pm, Wednesday 9pm, Thursday 9pm"
+    "schedule": "Tuesday 9pm, Wednesday 9pm, Thursday 9pm",
+    "lat": 19.427334256654852,
+    "lng": -99.17131170061427
   },
   {
     "country": "Mexico",
@@ -23,7 +25,9 @@
     "dance_styles": ["salsa", "cuban_salsa", "bachata"],
     "academy": true,
     "social": false,
-    "schedule": "Monday - Friday 7pm - 10pm, Saturday - Sunday 11:30am - 2:30pm"
+    "schedule": "Monday - Friday 7pm - 10pm, Saturday - Sunday 11:30am - 2:30pm",
+    "lat": 19.406149966538766,
+    "lng": -99.1716628297167
   },
   {
     "country": "Mexico",
@@ -36,7 +40,9 @@
     "dance_styles": ["cuban_salsa", "bachata"],
     "academy": true,
     "social": false,
-    "schedule": "Monday - Friday 7pm - 10pm"
+    "schedule": "Monday - Friday 7pm - 10pm",
+    "lat": 19.432979780831452,
+    "lng": -99.17376571595982
   },
   {
     "country": "Bulgaria",
@@ -49,7 +55,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": false,
-    "schedule": "Tuesday 8pm-9pm, Thursday 8pm-9pm"
+    "schedule": "Tuesday 8pm-9pm, Thursday 8pm-9pm",
+    "lat": 42.646411919362535,
+    "lng": 23.340943642271675
   },
   {
     "country": "Bulgaria",
@@ -62,7 +70,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": false,
-    "schedule": "Tuesday 8:30pm - 9:25pm, Thursday 8:30pm-9:25pm"
+    "schedule": "Tuesday 8:30pm - 9:25pm, Thursday 8:30pm-9:25pm",
+    "lat": 42.67210472577333,
+    "lng": 23.322834244857262
   },
   {
     "country": "Bulgaria",
@@ -75,7 +85,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": true,
-    "schedule": "Sunday afternoons"
+    "schedule": "Sunday afternoons",
+    "lat": 42.69403819153502,
+    "lng": 23.334988915345576
   },
   {
     "country": "Bulgaria",
@@ -88,7 +100,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Tuesday nights "
+    "schedule": "Tuesday nights",
+    "lat": 42.69591547591188,
+    "lng": 23.32085526214926
   },
   {
     "country": "Bulgaria",
@@ -101,7 +115,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": false,
-    "schedule": "(events vary, check socials/website)"
+    "schedule": "(events vary, check socials/website)",
+    "lat": 42.69748890690175,
+    "lng": 23.31782256925493
   },
   {
     "country": "Bulgaria",
@@ -114,7 +130,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": false,
-    "schedule": "(events vary, check socials/website)"
+    "schedule": "(events vary, check socials/website)",
+    "lat": 42.65429606275889,
+    "lng": 23.345443069253413
   },
   {
     "country": "Bulgaria",
@@ -127,7 +145,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": false,
-    "schedule": "(events vary, check socials/website)"
+    "schedule": "(events vary, check socials/website)",
+    "lat": 42.699078432017345,
+    "lng": 23.329567071109764
   },
   {
     "country": "United States",
@@ -140,7 +160,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": true,
-    "schedule": "(events vary, check website, socials)"
+    "schedule": "(events vary, check website, socials)",
+    "lat": 39.08444437400629,
+    "lng": -77.15484136164352
   },
   {
     "country": "Colombia",
@@ -153,7 +175,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": true,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 6.250531421954921,
+    "lng": -75.59216117377002
   },
   {
     "country": "United States",
@@ -166,7 +190,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": false,
     "social": true,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 39.05726694973357,
+    "lng": -76.96627519707685
   },
   {
     "country": "United States",
@@ -179,7 +205,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": false,
-    "schedule": "(events vary, check socials, website)"
+    "schedule": "(events vary, check socials, website)",
+    "lat": 38.93096632366861,
+    "lng": -77.0237414596971
   },
   {
     "country": "United States",
@@ -192,7 +220,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": true,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 39.08344817468121,
+    "lng": -77.15130072415027
   },
   {
     "country": "United States",
@@ -205,7 +235,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": true,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 38.90868562303884,
+    "lng": -77.02323240573335
   },
   {
     "country": "United States",
@@ -218,7 +250,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Friday/Saturday Nights"
+    "schedule": "Friday/Saturday Nights",
+    "lat": 37.79720885744229,
+    "lng": -122.40346528671182
   },
   {
     "country": "United States",
@@ -231,7 +265,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Saturday Afternoons"
+    "schedule": "Saturday Afternoons",
+    "lat": 37.76424390305278,
+    "lng": -122.38695980020364
   },
   {
     "country": "United States",
@@ -244,7 +280,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Friday Nights"
+    "schedule": "Friday Nights",
+    "lat": 37.74152235590761,
+    "lng": -122.40486559654819
   },
   {
     "country": "Netherlands",
@@ -257,7 +295,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": true,
-    "schedule": "Friday/Saturday nights. Check socials for lessons during the week"
+    "schedule": "Friday/Saturday nights. Check socials for lessons during the week",
+    "lat": 51.43724743559995,
+    "lng": 5.48224803968184
   },
   {
     "country": "United States",
@@ -270,7 +310,9 @@
     "dance_styles": ["salsa"],
     "academy": true,
     "social": true,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 47.59958940834609,
+    "lng": -122.3061260017455
   },
   {
     "country": "United States",
@@ -283,7 +325,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": true,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 47.615181229792114,
+    "lng": -122.31972754407205
   },
   {
     "country": "United States",
@@ -296,7 +340,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": true,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 47.67647777695114,
+    "lng": -122.31705623057914
   },
   {
     "country": "United States",
@@ -309,20 +355,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": false,
-    "schedule": "(events vary, check socials/ website)"
-  },
-  {
-    "country": "United States",
-    "city": "Brookyn (New York)",
-    "address": "Willoughby Plaza, Willoughby Plaza, Brooklyn, NY 11201, USA",
-    "name": "Salsa Salsa NYC",
-    "website": "https://www.salsasalsadancestudio.com/events-1/outdoor-salsa-willoughby-plaza-2022-08-03-17-00",
-    "instagram": "https://www.instagram.com/salsasalsanyc/",
-    "facebook": "https://www.facebook.com/SalsaSalsanyc/",
-    "dance_styles": ["salsa", "bachata"],
-    "academy": true,
-    "social": true,
-    "schedule": "Wednesdays 5pm (August 2022)"
+    "schedule": "(events vary, check socials/ website)",
+    "lat": 47.65247344208338,
+    "lng": -122.35624500359827
   },
   {
     "country": "United States",
@@ -335,7 +370,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": false,
     "social": true,
-    "schedule": "Thursdays 8pm"
+    "schedule": "Thursdays 8pm",
+    "lat": 40.691128104177054,
+    "lng": -73.98297665964417
   },
   {
     "country": "United States",
@@ -348,7 +385,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": false,
     "social": true,
-    "schedule": "Fridays 7pm"
+    "schedule": "Fridays 7pm",
+    "lat": 40.65741995704703,
+    "lng": -74.00806990197238
   },
   {
     "country": "United States",
@@ -361,7 +400,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": true,
-    "schedule": "7pm on various Saturdays (June 18, July 16, August 20, September 17, October 15, November 19)"
+    "schedule": "7pm on various Saturdays (June 18, July 16, August 20, September 17, October 15, November 19)",
+    "lat": 40.68287965140029,
+    "lng": -73.97906314429885
   },
   {
     "country": "United States",
@@ -374,20 +415,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Mondays 5pm"
-  },
-  {
-    "country": "United States",
-    "city": "Manhattan (New York)",
-    "address": "Pier 45 at Hudson River Park, Hudson River Greenway, New York, NY 10014, United States",
-    "name": "Hudson River Park",
-    "website": "https://hudsonriverpark.org/visit/events/event/salsa-3/",
-    "instagram": "",
-    "facebook": "",
-    "dance_styles": ["salsa"],
-    "academy": false,
-    "social": true,
-    "schedule": "Tuesdays 6:30 (may 31-june 28)"
+    "schedule": "Mondays 5pm",
+    "lat": 40.741310247297996,
+    "lng": -73.99277202717866
   },
   {
     "country": "United States",
@@ -400,7 +430,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Wednesdays 8pm"
+    "schedule": "Wednesdays 8pm",
+    "lat": 40.731869773480085,
+    "lng": -73.99385317650757
   },
   {
     "country": "United States",
@@ -413,7 +445,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Saturdays 8pm"
+    "schedule": "Saturdays 8pm",
+    "lat": 40.76741599274874,
+    "lng": -73.99533318662348
   },
   {
     "country": "United States",
@@ -426,7 +460,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": false,
     "social": true,
-    "schedule": "Saturdays 9pm"
+    "schedule": "Saturdays 9pm",
+    "lat": 40.7346034057818,
+    "lng": -73.99196000196999
   },
   {
     "country": "United States",
@@ -439,7 +475,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": false,
     "social": true,
-    "schedule": "Friday/Saturday 8pm-1am"
+    "schedule": "Friday/Saturday 8pm-1am",
+    "lat": 32.80383568560041,
+    "lng": -117.21394977150189
   },
   {
     "country": "United States",
@@ -452,7 +490,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Wednesday 7pm"
+    "schedule": "Wednesday 7pm",
+    "lat": 33.43320541201517,
+    "lng": -111.90552780217679
   },
   {
     "country": "United States",
@@ -465,7 +505,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Thursdays 8pm"
+    "schedule": "Thursdays 8pm",
+    "lat": 33.44258276918724,
+    "lng": -112.07350765984935
   },
   {
     "country": "United States",
@@ -478,7 +520,9 @@
     "dance_styles": ["salsa"],
     "academy": false,
     "social": true,
-    "schedule": "Fridays 9pm"
+    "schedule": "Fridays 9pm",
+    "lat": 33.44314223591328,
+    "lng": -111.92760621752217
   },
   {
     "country": "England, UK",
@@ -491,7 +535,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": true,
-    "schedule": "Mondays - Salsa 7.30pm - 8.30pm, Bachata 8.30pm - 9.30pm, SBK social 9pm - 11pm"
+    "schedule": "Mondays - Salsa 7.30pm - 8.30pm, Bachata 8.30pm - 9.30pm, SBK social 9pm - 11pm",
+    "lat": 50.90687646462647,
+    "lng": -1.4047081151185339
   },
   {
     "country": "England, UK",
@@ -504,7 +550,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": false,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 50.82274071122634,
+    "lng": -1.0810176044345599
   },
   {
     "country": "England, UK",
@@ -517,7 +565,9 @@
     "dance_styles": ["salsa", "bachata", "kizumba"],
     "academy": false,
     "social": true,
-    "schedule": "Tuesdays - 8-11. Salsa/Bachata/Socials"
+    "schedule": "Tuesdays - 8-11. Salsa/Bachata/Socials",
+    "lat": 50.77917385549191,
+    "lng": -1.0763346693771054
   },
   {
     "country": "Scotland, UK",
@@ -530,7 +580,9 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": true,
-    "schedule": "Wednesdays, Salsa / Bachata classes 7pm-10pm Social 10pm - 1 am"
+    "schedule": "Wednesdays, Salsa / Bachata classes 7pm-10pm Social 10pm - 1 am",
+    "lat": 57.14789578657642,
+    "lng": -2.1011615029123236
   },
   {
     "country": "England, UK",
@@ -543,7 +595,9 @@
     "dance_styles": ["cuban_salsa"],
     "academy": true,
     "social": true,
-    "schedule": "(events vary, check socials)"
+    "schedule": "(events vary, check socials)",
+    "lat": 52.4062674557744,
+    "lng": -1.5124024438996768
   },
   {
     "country": "Canada",
@@ -556,6 +610,8 @@
     "dance_styles": ["salsa", "bachata"],
     "academy": true,
     "social": true,
-    "schedule": "Fridays 8pm"
+    "schedule": "Fridays 8pm",
+    "lat": 43.681914763260345,
+    "lng": -79.3578759153678
   }
 ]
