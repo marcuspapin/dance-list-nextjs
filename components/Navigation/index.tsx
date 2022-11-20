@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { NavLink } from 'ui-library'
 
@@ -10,7 +11,11 @@ function Navigation() {
     <nav className="bg-dark py-8 px-4">
       <div className="base-container flex justify-between">
         <div className="flex items-center">
-          <Image src="/logo.png" width={225} height={25} />
+          <Link href="/">
+            <a className="cursor-pointer">
+              <Image src="/logo.png" width={225} height={25} />
+            </a>
+          </Link>
         </div>
         <div className="flex items-center">
           <NavLink text="Cities" href="/" isActive={isCities} />
