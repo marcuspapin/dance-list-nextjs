@@ -18,7 +18,7 @@ function PlaceCard({
   place: Place
 }) {
   return (
-    <div className="p-4">
+    <div className="p-4 lg:relative">
       <div className="border bg-light px-6 py-4 rounded-lg flex flex-col justify-center items-center text-center md:w-[500px] lg:text-left lg:w-[800px] xl:w-[1000px] lg:justify-between lg:flex-row">
         <div className="inline-block">
           <p className="text-h4">{name}</p>
@@ -49,7 +49,7 @@ function PlaceCard({
           </div>
         </div>
 
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap lg:absolute lg:left-80 xl:left-96">
           {danceStyles.map((style: string) => {
             const { formattedStyle, variant } = translateDanceStyles(style)
             return (
