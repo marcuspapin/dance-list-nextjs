@@ -51,12 +51,16 @@ function PlaceCard({
 
         <div className="flex flex-wrap lg:absolute lg:left-80 xl:left-96">
           {danceStyles.map((style: string) => {
-            const { formattedStyle, variant } = translateDanceStyles(style)
-            return (
-              <Pill key={style} variant={variant}>
-                {formattedStyle}
-              </Pill>
-            )
+            const translatedStyle = translateDanceStyles(style)
+            if (translatedStyle) {
+              const { formattedStyle, variant } = translatedStyle
+              return (
+                <Pill key={style} variant={variant}>
+                  {formattedStyle}
+                </Pill>
+              )
+            }
+            return null
           })}
         </div>
 
