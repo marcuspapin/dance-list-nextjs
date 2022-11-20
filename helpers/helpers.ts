@@ -79,7 +79,7 @@ function getCity(key) {
 
 function translateDanceStyles(
   style: string
-): { formattedStyle: string; variant: string } {
+): { formattedStyle: string; variant: string } | null {
   if (style === 'salsa') {
     return { formattedStyle: 'Salsa', variant: 'danger' }
   }
@@ -91,6 +91,8 @@ function translateDanceStyles(
   if (style === 'cuban_salsa') {
     return { formattedStyle: 'Cuban Salsa', variant: 'primary' }
   }
+
+  return null
 }
 
 export {
