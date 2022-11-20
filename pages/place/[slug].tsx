@@ -34,6 +34,8 @@ const CityPage = ({
     schedule,
     social,
     website,
+    lat,
+    lng,
   },
   otherPlaces,
 }: PlacePageInterface) => (
@@ -105,8 +107,8 @@ const CityPage = ({
 
         <div className="pl-10">
           <Wrapper apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API}>
-            <Map center={{ lat: 43, lng: -79 }} zoom={6}>
-              <Marker position={{ lat: 43, lng: -79 }} />
+            <Map center={{ lat, lng }} zoom={6}>
+              <Marker position={{ lat, lng }} />
             </Map>
           </Wrapper>
         </div>

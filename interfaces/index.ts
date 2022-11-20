@@ -10,6 +10,8 @@ export interface Place {
   schedule: string
   social: boolean
   website: string
+  lat?: number
+  lng?: number
 }
 
 export interface Location {
